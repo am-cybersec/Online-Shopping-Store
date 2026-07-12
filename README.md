@@ -53,23 +53,10 @@ This project follows the **MVC (Model-View-Controller)** pattern with **Entity F
 - Visual Studio (2017 or later recommended)
 - SQL Server (LocalDB or full instance)
 - .NET Framework (compatible with MVC 5)
-
-### Setup
-1. Clone the repository
-   ```bash
-   git clone https://github.com/am-cybersec/Online-Shopping-Store.git
-   ```
 2. Open the solution in Visual Studio
 3. Update the connection string in `Web.config` to point to your SQL Server instance
 4. Run Entity Framework database migration / ensure the database schema matches the EDMX model
 5. Build and run the project (`F5`)
-
----
-
-## 📌 Notes
-
-- Database-First approach means the `.edmx` model is generated from an existing SQL Server schema — ensure your database is set up before running the project.
-- Admin credentials/setup may need to be configured separately depending on how the seed data is structured.
 
 ---
 
